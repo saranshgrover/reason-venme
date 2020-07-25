@@ -17,8 +17,8 @@ yarn server
 
 ## Built With
 
-- [ReasonML](https://www.reactjs.org)
-- [react-reason](https://www.material-ui.com)
+- [ReasonML](https://reasonml.github.io/)
+- [reason-react](http://reasonml.github.io/reason-react/)
 - [tailwindcss](https://tailwindcss.com)
 - [re-formality](https://github.com/MinimaHQ/re-formality/)
 
