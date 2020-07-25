@@ -1,0 +1,26 @@
+.currency-input::before {
+    content: "$";
+    font-family: "Roboto Regular", sans-serif;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.currency-input {
+    display: inline-block;
+    position: relative;
+}
+
+.percent-input::before {
+    content: "%";
+    font-family: "Roboto Regular", sans-serif;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.percent-input {
+    display: inline-block;
+    position: relative;
+}
+

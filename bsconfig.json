@@ -1,0 +1,28 @@
+{
+	"name": "react-hooks-template",
+	"reason": {
+		"react-jsx": 3
+	},
+	"sources": {
+		"dir": "src",
+		"subdirs": true
+	},
+	"bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+	"ppx-flags": [
+		"re-formality/ppx.exe",
+		[
+			"@dylanirlbeck/tailwind-ppx/tailwind-ppx",
+			"-path src/tailwind.css"
+		]
+	],
+	"package-specs": [
+		{
+			"module": "commonjs",
+			"in-source": true
+		}
+	],
+	"suffix": ".bs.js",
+	"namespace": true,
+	"bs-dependencies": ["reason-react", "re-classnames", "re-formality"],
+	"refmt": 3
+}
