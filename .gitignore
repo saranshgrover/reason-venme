@@ -4,3 +4,4 @@ lib/
 .tailwind_ppx_cache
 .vscode
 .merlin
+src/tailwind.css
